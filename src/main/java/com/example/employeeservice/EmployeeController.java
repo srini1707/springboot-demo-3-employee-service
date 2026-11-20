@@ -13,9 +13,9 @@ public class EmployeeController {
     @GetMapping
     public List<Map<String, Object>> employees() {
         return List.of(
-            Map.of("id", 101, "name", "Srini", "role", "Platform Engineer"),
-            Map.of("id", 102, "name", "Srini", "role", "Java Developer"),
-            Map.of("id", 103, "name", "Srini", "role", "QA Engineer")
+            Map.of("id", 101, "name", "Srini", "role", "Platform "),
+            Map.of("id", 102, "name", "Srini", "role", "Java "),
+            Map.of("id", 103, "name", "Srini", "role", "QA ")
         );
     }
 }
